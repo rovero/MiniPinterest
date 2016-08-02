@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					F71F5CCF1D4F827500BA7312 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HUXB96ATAK;
 					};
 					F71F5CE51D4F827500BA7312 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -405,10 +406,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MiniPinterest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LittleTiger.MiniPinterest.MiniPinterest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -416,10 +421,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MiniPinterest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LittleTiger.MiniPinterest.MiniPinterest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -488,6 +497,7 @@
 				F71F5CFC1D4F827500BA7312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F71F5CFD1D4F827500BA7312 /* Build configuration list for PBXNativeTarget "MiniPinterestTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +506,7 @@
 				F71F5CFF1D4F827500BA7312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F71F5D001D4F827500BA7312 /* Build configuration list for PBXNativeTarget "MiniPinterestUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				F71F5D021D4F827500BA7312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
